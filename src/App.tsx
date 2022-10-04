@@ -1,11 +1,10 @@
 import React from 'react';
+import Nav from './components/Nav';
 
 
 function App() {
-  return (
-    <div className='font-bold text-green-700 underline'>
-       Testing... 1...2...3...
-    </div>
+  return (    
+    <Nav />    
   );
 }
 
